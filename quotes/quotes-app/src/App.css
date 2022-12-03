@@ -1,0 +1,35 @@
+.App {
+  background-color: #4b4e6d;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  width: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes-header {
+  color: #fff;
+  font-size: 4rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}

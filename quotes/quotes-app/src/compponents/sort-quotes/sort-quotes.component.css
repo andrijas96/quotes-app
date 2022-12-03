@@ -1,0 +1,16 @@
+.options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sort-options {
+  height: 40px;
+  padding: 0px 10px;
+  background-color: #272839;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
